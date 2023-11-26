@@ -20,27 +20,27 @@
 
   <distributionManagement>
     <repository>
-      <id>clouduserp0087346b</id>
-      <url>https://pkgs.dev.azure.com/clouduserp0087346b/_packaging/clouduserp0087346b/maven/v1</url>
+     <id>AzuredevopsStudyOnkar</id>
+        <url>https://pkgs.dev.azure.com/AzuredevopsStudyOnkar/_packaging/AzuredevopsStudyOnkar/maven/v1</url>
       <releases>
-        <enabled>true</enabled>
-      </releases>
-      <snapshots>
-        <enabled>true</enabled>
-      </snapshots>
+    <enabled>true</enabled>
+  </releases>
+  <snapshots>
+    <enabled>true</enabled>
+  </snapshots>
     </repository>
   </distributionManagement>
 
   <repositories>
     <repository>
-      <id>clouduserp0087346b</id>
-      <url>https://pkgs.dev.azure.com/clouduserp0087346b/_packaging/clouduserp0087346b/maven/v1</url>
+      <id>AzuredevopsStudyOnkar</id>
+        <url>https://pkgs.dev.azure.com/AzuredevopsStudyOnkar/_packaging/AzuredevopsStudyOnkar/maven/v1</url>
       <releases>
-        <enabled>true</enabled>
-      </releases>
-      <snapshots>
-        <enabled>true</enabled>
-      </snapshots>
+    <enabled>true</enabled>
+  </releases>
+  <snapshots>
+    <enabled>true</enabled>
+  </snapshots>
     </repository>
   </repositories>  
 
