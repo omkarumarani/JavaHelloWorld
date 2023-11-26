@@ -4,9 +4,9 @@
                               https://maven.apache.org/xsd/settings-1.0.0.xsd">
   <servers>
     <server>
-      <id>clouduserp0087346b</id>
-      <username>clouduserp0087346b</username>
-      <password>6bjubist4yy7qq7uv3z62ehwtsvtimmc5672n3ndifsoyflzn64a</password>
+       <id>AzuredevopsStudyOnkar</id>
+      <username>AzuredevopsStudyOnkar</username>
+      <password>zq5g2pharcdaqzlzpfk6dtyj5dbdzqdn4n47hctsmzavnpf27lpq</password>
     </server>
   </servers>
 </settings>
