@@ -1,0 +1,30 @@
+# Maven
+# Build your Java project and run tests with Apache Maven.
+# Add steps that analyze code, save build artifacts, deploy, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/java
+
+trigger:
+- main
+
+pool:
+ name: Default
+
+steps:
+- task: Maven@1
+  inputs:
+    mavenPomFile: 'demo/pom.xml'
+    goals: package
+    publishJUnitResults: false
+    javaHomeOption: 'JDKVersion'
+    mavenVersionOption: 'Default'
+    mavenAuthenticateFeed: true
+    sonarQubeRunAnalysis: false
+- task: Maven@1
+  inputs:
+    mavenPomFile: 'demo/pom.xml'
+    goals: 'deploy'
+    publishJUnitResults: false
+    javaHomeOption: 'JDKVersion'
+    mavenVersionOption: 'Default'
+    mavenAuthenticateFeed: true
+    sonarQubeRunAnalysis: false
